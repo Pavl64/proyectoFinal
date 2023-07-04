@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: arial;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    margin:0;
+}
+.minibannertop {
+    margin: auto;
+    text-align: center;
+    background: #000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+    height: 57px;
+    max-height: 57px;
+    transition: top .2s;
+}
+.header{
+    background-color: #173083;
+    max-height: 76px;
+    height: 76px;
+    position: fixed;
+    top: 57px;
+    width: 100%;
+    z-index: 4;
+    box-shadow: none;
+}
+.main-top-bar{
+    padding: 13px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-top-right{
+    display: flex;
+    align-items: center;
+}
+.delivery-content{
+    display: flex;
+    align-items: center;
+}
+.delivery-selector{
+    margin-left: 10px;
+}
+.delivery-select{
+    display: flex;
+    align-items: center;
+}
+.delivery-select p{
+    color: #fbb905;
+    font-size: 16px;
+    margin: 0;
+}
+.delivery-select select{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    outline: 0;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.event-phone-LIMA{
+    padding-right: 10px;
+    color: #000;
+}
+.event-phone-HUANCAYO{
+    padding-right: 10px;
+    color: #000;
+}
+.phone{
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+.account-user{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 120px;
+}
+.account-user::before{
+    content: "";
+    background-image: url(https://www.bembos.com.pe/_nuxt/img/ico_user.3b47628.svg);
+    background-size: 21px 22px;
+    height: 22px;
+    width: 21px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    left: -24px;
+}
+.navigation-container{
+    background-color: #fff;
+    box-shadow: 0 5px 6px -3px rgba(0,0,0,.2);
+    position: fixed;
+    top: 133px;
+    width: 100%;
+    z-index: 3;
+    height: 69px;
+    max-height: 69px;
+}
+.navigation-content{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-height: 100%;
+}
+.max-container{
+    max-width: 1134px;
+    width: 100%;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 20px 10px 20px 0;
+}
+.menu a{
+    margin-right: 10px;
+    color: #21388b;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all .2s;
+    cursor: pointer;
+    font-weight: 200;
+    line-height: 1.5;
+}
+.cart{
+    width: 18%;
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tienda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+    background: #fbb905;
+    border-radius: 25px;
+    color: #373d42;
+    font-size: 20px;
+    border: none;
+    outline: 0;
+    padding: 7px 20px;
+    width: 100%;
+    min-width: 100%;
+}
+.letras-tienda{
+    color: #173083;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+}
+.letras-tienda strong{
+    color:#e10b19;
+}
+.carrito{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    cursor: pointer;
+    height: 100%;
+    background: #fbb905;
+    border-radius: 25px;
+    font-family: din1451;
+    color: #373d42;
+    font-size: 20px;
+    border: none;
+    outline: 0;
+    padding: 0 20px;
+}
+.padding-top{
+    background: #ccc;
+    padding-top: 202px;
+    transition: all .2s ease-out;
+}
+/* Estilos para el encabezado */
